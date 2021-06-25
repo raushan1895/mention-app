@@ -7,11 +7,10 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'textarea-app';
   txtValue: string = "";
 
   mentionConfig = {
-    items: ["Noah", "Liam", "Mason", "Jacob"],
+    items: ['Gina Williams', 'Jake Williams', 'Jamie John', 'John Doe', 'Jeff Stewart', 'Paula M. Keith'],
     triggerChar: "@"
   }
 

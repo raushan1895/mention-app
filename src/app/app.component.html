@@ -1,14 +1,11 @@
-
 <h2>Mention App</h2>
 <form #dropdownForm="ngForm" (submit)="onSubmit(dropdownForm)">
   <div class="container">
-  <!-- <div class="col-md-6"> -->
     <textarea id="dropdownTextarea" class="form-control" name="txtValue" [(ngModel)]="txtValue"
       [mentionConfig]="mentionConfig" rows="20" cols="100"></textarea>
-  <!-- </div> -->
-  <div class="buttonContainer">
-    <button class="btn btn-success btn-lg" type="submit" id="submitBtn">Validate</button>
-    <button class="btn btn-warning btn-lg" type="button" (click)="resetForm(dropdownForm)">Reset</button>
+    <div class="buttonContainer">
+      <button class="btn btn-success btn-lg" type="submit" id="submitBtn">Validate</button>
+      <button class="btn btn-warning btn-lg" type="button" (click)="resetForm(dropdownForm)">Reset</button>
+    </div>
   </div>
-</div>
 </form>
